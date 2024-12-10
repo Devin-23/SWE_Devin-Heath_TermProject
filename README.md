@@ -9,3 +9,5 @@ But here is our SWE Term Project "App for the Institute of the South Pacific"
     -Devin
 
 update - I don't think the "push" function is working properly? will hopefully fidn out tommorrow after sleeping on it
+
+I think the update went to the wrong one
