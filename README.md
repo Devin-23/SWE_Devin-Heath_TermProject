@@ -7,3 +7,5 @@ But here is our SWE Term Project "App for the Institute of the South Pacific"
 
 "I would like to note I almost ripped my hair out on 2-3 seperate occasions so far :)"
     -Devin
+
+update - I don't think the "push" function is working properly? will hopefully fidn out tommorrow after sleeping on it
