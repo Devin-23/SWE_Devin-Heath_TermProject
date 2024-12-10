@@ -13,3 +13,5 @@ So majority of this is being self taught from Google as the notes are also **ver
 update - I don't think the "push" function is working properly? will hopefully fidn out tommorrow after sleeping on it
 
 update - not sleepinging on it, trying to figure out but apparently all updates that where pushed/sent have not been put in??? confused...
+
+update - It was working and then it wasn't... either way the fianl version should be there. Can't seem to figure out how to set it as the default but you should be able to see what one was most recently added.
