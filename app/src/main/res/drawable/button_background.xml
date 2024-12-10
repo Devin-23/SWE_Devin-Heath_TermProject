@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+        <!--button colors?-->
+    <solid android:color="#6200EE" />
+        <!--this should round the corners I hope-->
+    <corners android:radius="12dp" />
+        <!--please give border-->
+    <stroke android:width="2dp" android:color="#3700B3" />
+</shape>
+
+
+    <!--
+        did not want to have to rewrite main for the buttons that android studio gives so made a
+        work around that makes the text background look like a button to be able to still use TextView :)
+     -->
