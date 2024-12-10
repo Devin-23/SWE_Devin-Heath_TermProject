@@ -12,7 +12,7 @@
         android:id="@+id/textView"
         android:layout_width="390dp"
         android:layout_height="96dp"
-        android:fontFamily="cursive"
+        android:fontFamily="@font/mulish"
         android:text="Institute of the South Pacific Homepage"
         android:textAlignment="center"
         android:textSize="34sp"

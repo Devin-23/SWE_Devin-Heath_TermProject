@@ -44,19 +44,19 @@ public class ProgramsActivity extends AppCompatActivity {
 
             //hardcoding in the programs
         List<ProgramItem> programList = new ArrayList<>();
-        programList.add(new ProgramItem("Architectural", "Engineering Technology", "http://schemas.android.com/apk/res/android"));
-        programList.add(new ProgramItem("Civil", "Engineering Technology", "http://schemas.android.com/apk/res/android"));
-        programList.add(new ProgramItem("Geomatics", "Engineering Technology", "http://schemas.android.com/apk/res/android"));
-        programList.add(new ProgramItem("Computing Systems", "Engineering Technology", "http://schemas.android.com/apk/res/android"));
-        programList.add(new ProgramItem("Electronics (Biomedical)", "Engineering Technology", "http://schemas.android.com/apk/res/android"));
-        programList.add(new ProgramItem("Electronics (Instrumentation)", "Engineering Technology", "http://schemas.android.com/apk/res/android"));
-        programList.add(new ProgramItem("Electrical (Power)", "Engineering Technology", "http://schemas.android.com/apk/res/android"));
-        programList.add(new ProgramItem("Telecommunications", "Engineering Technology", "http://schemas.android.com/apk/res/android"));
-        programList.add(new ProgramItem("Chemical Processing", "Engineering Technology", "http://schemas.android.com/apk/res/android"));
-        programList.add(new ProgramItem("Industrial", "Engineering Technology", "http://schemas.android.com/apk/res/android"));
-        programList.add(new ProgramItem("Mechanical", "Engineering Technology", "http://schemas.android.com/apk/res/android"));
-        programList.add(new ProgramItem("Mechanical (Manufacturing)", "Engineering Technology", "http://schemas.android.com/apk/res/android"));
-        programList.add(new ProgramItem("Petroleum", "Engineering Technology", "http://schemas.android.com/apk/res/android"));
+        programList.add(new ProgramItem("Architectural", "Engineering Technology", "http://"));
+        programList.add(new ProgramItem("Civil", "Engineering Technology", "http://"));
+        programList.add(new ProgramItem("Geomatics", "Engineering Technology", "http://"));
+        programList.add(new ProgramItem("Computing Systems", "Engineering Technology", "http://"));
+        programList.add(new ProgramItem("Electronics (Biomedical)", "Engineering Technology", "http://"));
+        programList.add(new ProgramItem("Electronics (Instrumentation)", "Engineering Technology", "http://"));
+        programList.add(new ProgramItem("Electrical (Power)", "Engineering Technology", "http://"));
+        programList.add(new ProgramItem("Telecommunications", "Engineering Technology", "http://"));
+        programList.add(new ProgramItem("Chemical Processing", "Engineering Technology", "http://"));
+        programList.add(new ProgramItem("Industrial", "Engineering Technology", "http://"));
+        programList.add(new ProgramItem("Mechanical", "Engineering Technology", "http://"));
+        programList.add(new ProgramItem("Mechanical (Manufacturing)", "Engineering Technology", "http://"));
+        programList.add(new ProgramItem("Petroleum", "Engineering Technology", "http://"));
 
         /*
         * so the link provided in the notes no longer works/is up and running and we had no clue what other link to put,
@@ -87,7 +87,7 @@ public class ProgramsActivity extends AppCompatActivity {
                 new FetchCoursesTask().execute(url);
     }
 
-                //using ASyncTask to get the courses from XML URL
+                //using ASyncTask to get the courses from XML URL... This is rough...
             private class FetchCoursesTask extends AsyncTask<String, Void, List<CourseItem>> {
 
                 @Override

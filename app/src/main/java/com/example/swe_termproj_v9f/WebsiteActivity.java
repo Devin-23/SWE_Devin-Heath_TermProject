@@ -5,18 +5,19 @@ import android.webkit.WebView;
 import android.webkit.WebViewClient;
 import androidx.appcompat.app.AppCompatActivity;
 
-public class TransitActivity extends AppCompatActivity {
+public class WebsiteActivity extends AppCompatActivity {
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_transit);
+        setContentView(R.layout.activity_website);
 
-        WebView webView = findViewById(R.id.webView);
+        WebView webView = findViewById(R.id.webView2);
 
         webView.getSettings().setJavaScriptEnabled(true);
 
             //actually loading the URL
         webView.setWebViewClient(new WebViewClient());
-        webView.loadUrl("https://metrobus.com/home/");
+        webView.loadUrl("https://www.cna.nl.ca/");
     }
 }

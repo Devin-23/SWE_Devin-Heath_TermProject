@@ -1,6 +1,5 @@
 package com.example.swe_termproj_v9f;
 
-import android.content.Intent;
 import android.os.Bundle;
 
 import androidx.activity.EdgeToEdge;
@@ -28,28 +27,32 @@ public class MainActivity extends AppCompatActivity {
             return insets;
         });
 
-            //initializing recycler view
+            //recycler view things :)
         RecyclerView recyclerView = findViewById(R.id.recyclerView);
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
 
             //inserting the buttons & data for the recycler view list
         List<ButtonItem> buttonList = new ArrayList<>();
         buttonList.add(new ButtonItem("Available Programs", ProgramsActivity.class));
-            // ^^ Semi-Complete (just add a horizontal bar in activity_programs.xlm
+            // ^^ Complete
         buttonList.add(new ButtonItem("Class Schedules", ScheduleActivity.class));
-            // ^^ Null
+            // ^^ Complete
         buttonList.add(new ButtonItem("Personal Calendar", CalendarActivity.class));
-            // ^^ Null
+            // ^^ Complete
         buttonList.add(new ButtonItem("Public Transit Info", TransitActivity.class));
             // ^^ Complete
-        buttonList.add(new ButtonItem("News", NewsActivity.class));
-            // ^^ Null
-        buttonList.add(new ButtonItem("Contacts", ContactsActivity.class));
-            // ^^ Null
+        buttonList.add(new ButtonItem("Today's News", NewsActivity.class));
+            // ^^ Complete
+        buttonList.add(new ButtonItem("My Contacts", ContactsActivity.class));
+            // ^^ Complete
+        buttonList.add(new ButtonItem("View Map", MapActivity.class));
+            // ^^ Complete
+        buttonList.add(new ButtonItem("College Website", WebsiteActivity.class));
+            // ^^ Complete
         buttonList.add(new ButtonItem("Application Info", InfoActivity.class));
-            // ^^ Null
+            // ^^ Complete
 
-    //I hate I set the above comments talking about the above but not below but I'm also too lazy to change it :)
+    //I hate I set the above comments talking about 'above' and not what's below but I'm also too lazy to change it (0.0)
 
             //setting the adapter for it
         ButtonAdapter adapter = new ButtonAdapter(this, buttonList);
