@@ -9,3 +9,5 @@ But here is our SWE Term Project "App for the Institute of the South Pacific"
     -Devin
 
 update - I don't think the "push" function is working properly? will hopefully fidn out tommorrow after sleeping on it
+
+update - not sleepinging on it, trying to figure out but apparently all updates that where pushed/sent have not been put in??? confused...
